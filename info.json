@@ -1,0 +1,26 @@
+{
+    "identifier": "maneuver_anticipation",
+    "name": "Maneuver_Anticipation",
+    "author": "Ikram",
+    "license": "BSD",
+    "description": "Predict maneuver",
+    "version": "1.0.0",
+    "options": {
+		"favorite": true,
+		"treeview": true,
+		"menu": [
+			
+			
+			{
+				"name": "Predict Action",
+				"action": "maneuverAnticipation.predictaction",
+				"iclass": "fa fa-check-circle"
+			},
+			{
+				"name": "Cross Validation",
+				"action": "maneuverAnticipation.index",
+				"iclass": "fa fa-check-circle"
+			}
+		]
+	}
+}

@@ -1,0 +1,24 @@
+{% extends "layout2.html" %}
+
+{% block content %}
+{% block content_header %}
+<section class="content-header">
+<h1>Maneuver Anticipation<small>(AIO-HMM)</small></h1>
+</section>
+{% endblock content_header %}
+
+    
+
+  <body>
+   
+      <form action = "/ma/upload" method = "POST" enctype = "multipart/form-data">
+         <p>
+			Please specify a file: <br> <br>
+         <input type = "file" name = "file" accept=".mat"/>
+         </p>
+         <button type = "submit" class="btn btn-success">Predict Maneuver </button>
+      </form>
+      
+   </body>
+
+{% endblock %}

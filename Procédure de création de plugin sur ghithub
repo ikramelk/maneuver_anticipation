@@ -1,0 +1,26 @@
+Procédure de création de plugin sur ghithub
+- Crée un seul répertoire qui contient votre plugin : par exemple "mon_plugin"
+- Créer le un début sur https://github.com/vcar avec le button new avec le "mon_plugin"
+
+- Dans répertoire en local "mon_plugin" : mettez tous (le code du plugin dans un répertoire, le dossier des doc (rapport, pdf, presenatation), la dataset que vous avez utilisez (pas trop grande), la)
+
+- Palssez vous dans mon_plugin avec la commande Cd ou équivalent
+- Tapez les commandes suivants (il ne faut pas avoir d'erreur sinon j'ai oublie qqc) :
+	git init
+	git add *
+	git commit -m "first commit"
+	git remote add origin https://github.com/vcar/mon_plugin.git
+	git push -u origin master
+
+
+Il faut l'adapter surtout "git remote add origin https://github.com/vcar/mon_plugin.git" avec le nom de votre plugin
+
+- Ca prend un peu de temps pour l'upload
+- SI vous avez modifié  qqc en local et vous voulez le passer au serveur : 
+	git commit -m "Seconde commit"
+	git push -u origin master
+
+
+- Un bon guide pour git http://rogerdudler.github.io/git-guide/index.fr.html
+
+

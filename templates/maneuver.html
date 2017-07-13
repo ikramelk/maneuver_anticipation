@@ -1,0 +1,24 @@
+{% extends "layout2.html" %}
+
+{% block content %}
+{% block content_header %}
+<section class="content-header">
+<h1>Maneuver Anticipation<small>(AIO-HMM)</small></h1>
+</section>
+{% endblock content_header %}
+
+    
+<body>
+	<div>
+		<br />
+		<form id ="form" action="/ma/generate" method="post">
+		<button class="btn btn-primary">Generate Features</button>
+		</form>
+		<br />
+		<form id ="form2" action="/ma/predict" method="post">
+		<button class="btn btn-success">Predict Maneuver </button>
+		</form>
+	</div>
+</body>
+
+{% endblock %}
