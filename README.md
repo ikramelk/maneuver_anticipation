@@ -1,6 +1,4 @@
 
-* Il faut faire la cross-validation avec 8 conducteurs pour la training et 2 pour le test puis changer
-* On calcule après la variance 
-* La présentation détaille un peu les variables utilisées
+voir/see : maneuver_anticipation/Docs/our_work/IKRAM_EL_KARFI-v2.pptx
 
 
